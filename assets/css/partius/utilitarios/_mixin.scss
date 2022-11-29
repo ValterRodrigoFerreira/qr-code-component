@@ -1,0 +1,13 @@
+@use "sass:math";
+
+@mixin before-icon($icon, $size, $color) {
+  &::before {
+    display: inline-block;
+    font-family: "icomoon";
+    content: $icon;
+    font-size: $size;
+    color: $color;
+    font-style: normal;
+    @content;
+  }
+}

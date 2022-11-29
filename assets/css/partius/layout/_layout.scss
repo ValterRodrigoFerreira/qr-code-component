@@ -1,0 +1,11 @@
+body {
+  background-color: $Light-gray;
+  width: $container-xl;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  padding-top: 50px;
+}

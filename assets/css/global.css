@@ -36,4 +36,14 @@ dd {
   margin: 0px;
 }
 
-/*--colors--*/ /*# sourceMappingURL=global.css.map */
+/*--colors--*/
+body {
+  background-color: hsl(212deg, 45%, 89%);
+  width: 1400px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 50px;
+}/*# sourceMappingURL=global.css.map */
